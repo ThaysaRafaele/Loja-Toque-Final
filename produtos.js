@@ -27,12 +27,12 @@ seleciona(".menu-closer").addEventListener("click", () =>
 
 //declarando os produtos 
 let produtoJson = [
-    {id:1, name:'Biquini rosa - zebra', img:'./assets/produtos/biquini-rosa-zebra.jpeg', price:65.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo XXXXXXX'},
-    {id:2, name:'Biquini laranja e branco', img:'./assets/produtos/biquini-laranja-branco.jpeg', price:76.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo YYYYYYYYY'},
-    {id:3, name:'Biquini rosa - onça', img:'./assets/produtos/biquini-rosa-onça.jpeg', price:58.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo ZZZZZZZZZZZ'},
-    {id:4, name:'Biquini preto - onça', img:'./assets/produtos/biquini-preto-onça-superior.jpeg', price:58.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo AAAAAAAAAA'},
-    {id:5, name:'Biquini vermelho', img:'./assets/produtos/biquini-vermelho.jpeg', price:61.50, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo BBBBBBBBBBBBBBB'},
-    {id:6, name:'Biquini rosa - onça', img:'./assets/produtos/biquini-rosa-onça.jpeg', price:58.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo ZZZZZZZZZZZ'},
+    {id:1, name:'Short Jeans Feminino', img:'./assets/produtos/shortJeans.png', price:45.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo XXXXXXX'},
+    {id:2, name:'Cropped Feminino', img:'./assets/produtos/Cropped-Tam-unico.png', price:25.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo YYYYYYYYY'},
+    {id:3, name:'Conjunto Academia Feminino', img:'./assets/produtos/conj-academia-short.png', price:45.00, sizes:['P', 'M', 'G'], description:'Conjunto para academia: cropped + short.'},
+    {id:4, name:'Regata Feminina', img:'./assets/produtos/regata-academia.png', price:25.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo AAAAAAAAAA'},
+    {id:5, name:'Conjunto Academia Feminino', img:'./assets/produtos/conj-academia-legging.png', price:50.00, sizes:['P', 'M', 'G'], description:'Conjunto para academia: cropped + calça Legging.'},
+    {id:6, name:'Conjunto Academia Feminino', img:'./assets/produtos/conj-academia-legging2.png', price:50.00, sizes:['P', 'M', 'G'], description:'Conjunto para academia: cropped + calça Legging.'},
     // {id:7, name:'Biquini laranja e branco', img:'./assets/produtos/biquini-laranja-branco.jpeg', price:76.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo YYYYYYYYY'},
     // {id:8, name:'Biquini rosa - onça', img:'./assets/produtos/biquini-rosa-onça.jpeg', price:58.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo ZZZZZZZZZZZ'},
     // {id:9, name:'Biquini preto - onça', img:'./assets/produtos/biquini-preto-onça-superior.jpeg', price:58.00, sizes:['P', 'M', 'G'], description:'Produto indicado para formato de corpo AAAAAAAAAA'},
